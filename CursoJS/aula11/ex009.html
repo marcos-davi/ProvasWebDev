@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paises</title>
+</head>
+<body>
+    <h1>Qual é o nome do seu país?</h1>
+    <label for="pais">Escreva o nome do seu pais: </label><input type="text" name="pais" id="pais">
+    <input type="button" value="Verificar" onclick="pais()">
+    <p id="nacionalidad"></p>
+
+    <script>
+        function pais(){
+var pais = document.getElementById('pais').value;
+if(pais == 'Brasil'){
+   document.getElementById('nacionalidad').innerHTML = 'Você é brasileiro!';
+} else{
+    document.getElementById('nacionalidad').innerHTML = 'Você é estrangeiro!';
+}
+
+}
+    </script>
+</body>
+</html>
