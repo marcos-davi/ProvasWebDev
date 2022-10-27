@@ -15,4 +15,4 @@ let ps = person.map(function (obj) {
 });
 person.forEach(pessoa => console.log(pessoa.name));
  console.log(ps);
-// console.log(typeof ps);
+
