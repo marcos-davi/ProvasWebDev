@@ -1,11 +1,13 @@
 const person = [
-  { name: "Dave", age: 5, gender: "male" },
+  { name: "Dave", age: 50, gender: "male" },
 
-  { name: "June", age: 10, gender: "female" },
+  { name: "June", age: 30, gender: "female" },
 
-  { name: "Marta", age: 12, gender: "female" },
+  { name: "Marta", age: 42, gender: "female" },
   
-  { name: "João", age: 12, gender: "male" },
+  { name: "João", age: 62, gender: "male" },
+
+  { name: "Vianna", age: 27, gender: "male" }
 ];
 person["height meter"] = 2.1;
 
