@@ -3,20 +3,18 @@ import { fetchAllusers } from "../store/slices/users";
 import { useDispatch, useSelector } from "react-redux";
 
 export const UserList = () => {
+  const { list: users } = useSelector((state) => state.users);
 
-    const { list:users } = useSelector(state => state.users)
-
-    const dispatch = useDispatch();
-
+  const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch(fetchAllusers());
-  })
+  });
 
-  useEffect(() => {       
+  useEffect(() => {
     fetchAllusers();
-    }, [])
-  
+  }, []);
+
   return (
     <div className="container mt-4">
       <div className="row">
