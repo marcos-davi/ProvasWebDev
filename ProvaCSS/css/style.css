@@ -1,9 +1,18 @@
-.grid-container{
-   background-color: aqua; 
-    
-    
-}
-.grid-item{
-    background-color: plum;
-   
-}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .item1 {
+    grid-area: 1 / 2 / span 2 / span 3;
+  }
