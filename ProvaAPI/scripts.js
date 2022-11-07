@@ -15,8 +15,7 @@ request.onload = function () {
       const tarjeta = document.createElement('div');
       tarjeta.setAttribute('class', 'card');
 
-      // Creamos el la cabecera y el cuerpo de la tarjeta
-      
+      // Creamos el la cabecera y el cuerpo de la tarjeta      
       
       const cabeceraTarjeta = document.createElement('div');
       cabeceraTarjeta.setAttribute('class', 'card-header');
@@ -37,6 +36,10 @@ request.onload = function () {
       const originalTitulo = document.createElement('p');
       originalTitulo.setAttribute('class', 'card-title');
       originalTitulo.textContent = pelicula.original_title;
+
+      const anio = document.createElement('p');
+      originalTitulo.setAttribute('class', 'card-title');
+      anio.textContent = "Año "+pelicula.release_date;
       
 
       // Creamos la párrafo y le asignamos la descripción de la película
@@ -56,6 +59,7 @@ request.onload = function () {
       // Agregamos el título a la cabecera
       cabeceraTarjeta.appendChild(titulo);
       cabeceraTarjeta.appendChild(originalTitulo);
+      cabeceraTarjeta.appendChild(anio);
       cabeceraTarjeta.appendChild(img);
       
       // Agregamos la descripción al cuerpo
