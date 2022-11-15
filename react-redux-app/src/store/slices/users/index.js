@@ -5,7 +5,7 @@ import axios from "axios";
 export const userSlice = createSlice({
   name: "users",
   initialState: {
-    list: [],
+  list: [],
   },
   reducers: {
     setUserList: (state, action) => {

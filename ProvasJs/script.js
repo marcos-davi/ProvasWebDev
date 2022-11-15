@@ -1,8 +1,16 @@
-const sum = setInterval(suma,1000);
 var num = 0;
+var rodar = () => {
+  setInterval(suma, 1000);
+};
 
-function suma (){num++
-    
-    document.getElementById("demo").innerHTML
+
+function parar () {    
+    clearInterval(rodar);
+};
+
+function suma() {
+  num++;
+  console.log = num;
+  document.getElementById("demo").innerHTML = num;
 }
 

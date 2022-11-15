@@ -23,6 +23,7 @@ export const UserList = () => {
             <div className="card">
               <img src={user.avatar} alt="avatar" />
               <div className="card-body">
+              <h4>Id = {user.id}</h4>
                 <h5 className="card-title">{`${user.first_name} ${user.last_name}`}</h5>
                 <p className="card-text">{user.email}</p>
               </div>
