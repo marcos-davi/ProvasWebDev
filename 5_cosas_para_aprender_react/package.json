@@ -1,0 +1,14 @@
+{
+  "name": "5_cosas_para_aprender_react",
+  "version": "1.0.0",
+  "description": "### Fake data para pruebas https://reqres.in/",
+  "main": "async.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
