@@ -1,0 +1,13 @@
+.parent{
+    display: grid;
+    place-items: center;
+    background-color: rgb(247, 204, 224);
+    width: 10rem;
+    height: 10rem;
+}
+
+.child{
+width: 30%;
+height: 30%;
+background-color: brown;
+}
