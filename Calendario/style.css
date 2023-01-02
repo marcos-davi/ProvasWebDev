@@ -1,0 +1,24 @@
+ol{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    padding: 0;
+}
+
+.firstDay{
+    grid-column-start: 7;
+}
+.dayName{
+    font-weight: bold;
+    background-color: azure;
+    text-align: center;
+}
+div {
+    text-align: center;
+    max-width: 300px ;
+}
+
+li{
+    text-align: right;
+
+}
